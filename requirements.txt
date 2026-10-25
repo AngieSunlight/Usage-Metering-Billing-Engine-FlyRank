@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pydantic
+redis
+cryptography
+python-dotenv
+requests
