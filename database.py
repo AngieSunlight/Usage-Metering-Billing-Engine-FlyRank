@@ -6,6 +6,8 @@ class Settings(BaseSettings):
     database_url: str
     stripe_secret_key: str = ""
     stripe_webhook_secret: str = ""
+    stripe_price_id: str = ""
+    app_base_url: str = "http://localhost:8000"
     class Config:
         env_file = ".env"
 
